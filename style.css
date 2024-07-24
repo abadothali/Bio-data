@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  font-family: cursive;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+section{
+  width: 90vw;
+  border: 2px solid blue;
+  border-radius: 8px;
+  color: white;
+  margin: 20px auto;
+  padding: 14px;
+}
+
+.profile{
+  border: none;
+}
+
+section #photo, #name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+#name h1{
+padding: 4px 24px;
+color: blue;
+border: 2px solid blue;
+border-radius: 4px;
+}
+
+h1{
+  color: brown;
+  margin-bottom: 10px;
+}
+
+section .img{
+  height: 260px;
+  width: 260px;
+  background-image: url(profile.png);
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
